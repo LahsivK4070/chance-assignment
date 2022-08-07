@@ -1,0 +1,125 @@
+.bottom-container{
+    padding: 1.2rem 0.8rem 0.2rem;
+    border-radius: 20px 20px 0 0;
+    background-color: white;
+}
+
+.bottom-cont-div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.bottom-cont-div-2{
+    height: 280px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.bottom-cont-div-2::-webkit-scrollbar {
+    display: none;
+}
+
+.msg-cnt{
+    background-color: rgb(230, 157, 89);
+    border-radius: 100%;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+    color: white;
+    margin-left: 0.3rem;
+}
+
+#search-bar{
+    border: none;
+    outline: none;
+    width: 5rem;
+    margin-left: 0.3rem;
+    transition-duration: 500ms;
+}
+
+#search-bar:focus{
+    width: 7rem;
+    transition-duration: 500ms;
+}
+
+.msg-card{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(131, 134, 138, 0.171);
+}
+
+.msg-img{
+    margin-right: 0.5rem;
+}
+
+.msg-img img{
+    background-color: white;
+    border-radius: 100%;
+    width: 3rem;
+}
+
+.msg-cont{
+    margin-right: 0.2rem;
+    width: 200px;
+}
+
+.msg-user{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+.msg-text{
+    font-family: 'Montserret', sans-serif;
+    font-size: 0.7rem;
+    color: rgb(131, 134, 138);
+    line-height: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+}
+
+.msg-time{
+    font-family: 'Montserret', sans-serif;
+    font-size: 0.7rem;
+}
+
+.msg-time .last-seen{
+    text-align: right;
+    margin-bottom: 0.5rem;
+    color: rgb(131, 134, 138);
+}
+
+.msg-time .unread p{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    background-color: rgb(240, 249, 252);
+    border-radius: 50%;
+    padding: 0.3rem 0.5rem;
+    color: black;
+    margin-left: 1.3rem;
+    font-size: 0.7rem;
+}
+
+.turn{
+    width: 82px;
+    border-radius: 20px!important;
+}
+
+.no-user{
+    font-family: 'Montserret', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(131, 134, 138);
+}
